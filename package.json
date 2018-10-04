@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
+    "native-base-web": "0.0.5",
     "react": "^16.5.2",
+    "react-art": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.3"
+    "react-native": "^0.57.1",
+    "react-native-web": "^0.9.1",
+    "react-scripts": "2.0.3",
+    "react-tabs": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

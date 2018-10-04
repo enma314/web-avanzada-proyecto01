@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -13,6 +14,7 @@
   background-color: #470000;
   min-height: 20vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -20,32 +22,10 @@
   border-width: 10px;
   border-style: solid;
   border-color: black;
-}
-
-.Tab-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: -40px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-
-.Single-tab {
-  background-color: #470000;
-  min-height: 10vh;
-  min-width: 50%;
-  display: flex;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  border-width: 10px;
-  border-style: solid;
-  border-color: black;
-  justify-content: center;
-  align-items: center;
 }
 
 .App-content {
+  
   background-color: #793030;
   min-height: 100vh;
   display: flex;
