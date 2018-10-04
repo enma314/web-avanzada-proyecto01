@@ -45,6 +45,7 @@ class Find extends Component {
   postNewImage(){
     let bodyFormData = new FormData();
     bodyFormData.append('image', this.state.selectedFile);
+    console.log("Selected data")
     console.log(this.state.selectedFile)
     axios({
       method: 'post',
